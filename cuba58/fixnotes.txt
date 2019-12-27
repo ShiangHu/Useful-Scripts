@@ -1,3 +1,6 @@
+# main codes: https://github.com/BUCANL/BIDS-Lossless-EEG
+# commit id bd69e0b  
+
 cd /media/shu/hdd
 # for job submission
 cp toolbox/fixlsls/cuba58/c01_scalpart_remote.cfg Qceeg_cuba/derivatives/BIDS-Lossless-EEG/code/config/face13_sbatch/
