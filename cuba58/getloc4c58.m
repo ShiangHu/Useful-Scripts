@@ -29,9 +29,10 @@ fprintf(fid,'%s %3.4f %3.4f %3.4f\n', aaa.textdata{i}, x(i), y(i), z(i));
 end
 fclose(fid);
 
-
 name = strcat(aaa.textdata,'-REF');
-
+tmp = x;
+x = y;
+y = -tmp;
 
 T = table(name,x,y,z);
 
