@@ -6,5 +6,5 @@ cd /media/shu/hdd
 cp toolbox/fixlsls/cuba58/c01_scalpart_remote.cfg Qceeg_cuba/derivatives/BIDS-Lossless-EEG/code/config/face13_sbatch/
 cp toolbox/fixlsls/pop_marks_event_gap.m Qceeg_cuba/derivatives/BIDS-Lossless-EEG/code/dependencies/eeglab_lossless/plugins/vised_marks/marks/pop_func/
 # for QC
-cp toolbox/fixlsls/scrollplot.m Qceeg_cuba/derivatives/BIDS-Lossless-EEG/code/dependencies/eeglab_lossless/plugins/Viewprops1.5.4/
-cp toolbox/fixlsls/ve_edit.m Qceeg_cuba/derivatives/BIDS-Lossless-EEG/code/dependencies/eeglab_lossless/plugins/vised_marks/vised/command_func/
+cp toolbox/fixlsls/cuba58/scrollplot.m Qceeg_cuba/derivatives/BIDS-Lossless-EEG/code/dependencies/eeglab_lossless/plugins/Viewprops1.5.4/
+cp toolbox/fixlsls/cuba58/ve_edit.m Qceeg_cuba/derivatives/BIDS-Lossless-EEG/code/dependencies/eeglab_lossless/plugins/vised_marks/vised/command_func/
